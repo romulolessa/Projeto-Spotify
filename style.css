@@ -1,0 +1,78 @@
+:root{
+    --background-menu:hsl(225,5.56%,14.12%);
+    --color-font:hsl(0,0%,100%);
+    --text-p:hsl(204,2.33%,57.84%)
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    font-size: 100%;
+}
+
+header, footer{
+    color: var(--color-font);
+    background-color: hsl(0,0%,0%);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    padding-right: 5rem;
+}
+
+.menu-h1{
+    padding: 1.5rem 0 1.5rem 5rem;
+}
+.menu li {
+    padding: 0.5rem 2.5rem 0.5rem 0;
+}
+.menu span{
+    color: var(--text-p);
+}
+.menu-footer{
+    display: flex; 
+    justify-content: space-around;  
+    padding: 3.5rem 1rem 3.5rem 1rem;
+}
+.menu-footer ul li{
+    padding: 0.5rem;
+}
+.menu-social{
+    display: flex; 
+    padding: 1.5rem;  
+}
+.menu-social li {
+    background-color: var(--background-menu);
+    padding: 1rem;
+    align-items: center;
+    border-radius: 50%;
+}
+.title-list{
+    color: var(--text-p);
+    padding-bottom: 1.5rem;
+}
+.country-footer{
+    text-align: end;
+    color: var(--text-p);
+}
+.direct-law{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.direct-law{
+    color: var(--text-p);
+}
+.direct-law ul{
+    display: flex;
+}
+.direct-law ul li{
+    padding: 0.5rem;
+
+}
